@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		497B08AD1575EF5B00CA1C34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497B08AC1575EF5B00CA1C34 /* UIKit.framework */; };
+		497B08AF1575EF5B00CA1C34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497B08AE1575EF5B00CA1C34 /* Foundation.framework */; };
+		497B08B11575EF5B00CA1C34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497B08B01575EF5B00CA1C34 /* CoreGraphics.framework */; };
+		497B08B71575EF5B00CA1C34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 497B08B51575EF5B00CA1C34 /* InfoPlist.strings */; };
+		497B08B91575EF5B00CA1C34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 497B08B81575EF5B00CA1C34 /* main.m */; };
+		497B08BD1575EF5B00CA1C34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 497B08BC1575EF5B00CA1C34 /* AppDelegate.m */; };
+		497B08C01575EF5B00CA1C34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 497B08BF1575EF5B00CA1C34 /* ViewController.m */; };
+		497B08C31575EF5B00CA1C34 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 497B08C11575EF5B00CA1C34 /* ViewController.xib */; };
+		497B08CB1575F0CA00CA1C34 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 497B08CA1575F0CA00CA1C34 /* DrawView.m */; };
+		52D3DD551ACE4C9900F16B5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D3DD541ACE4C9900F16B5D /* Default-568h@2x.png */; };
+		52ED7255212552F100D41AAE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52ED7254212552F100D41AAE /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		497B08A81575EF5B00CA1C34 /* CalCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		497B08AC1575EF5B00CA1C34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		497B08AE1575EF5B00CA1C34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		497B08B01575EF5B00CA1C34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		497B08B41575EF5B00CA1C34 /* CalCircle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalCircle-Info.plist"; sourceTree = "<group>"; };
+		497B08B61575EF5B00CA1C34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		497B08B81575EF5B00CA1C34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		497B08BA1575EF5B00CA1C34 /* CalCircle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalCircle-Prefix.pch"; sourceTree = "<group>"; };
+		497B08BB1575EF5B00CA1C34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		497B08BC1575EF5B00CA1C34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		497B08BE1575EF5B00CA1C34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		497B08BF1575EF5B00CA1C34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		497B08C21575EF5B00CA1C34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		497B08C91575F0CA00CA1C34 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		497B08CA1575F0CA00CA1C34 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		52D3DD541ACE4C9900F16B5D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		52ED7254212552F100D41AAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		497B08A51575EF5B00CA1C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B08AD1575EF5B00CA1C34 /* UIKit.framework in Frameworks */,
+				497B08AF1575EF5B00CA1C34 /* Foundation.framework in Frameworks */,
+				497B08B11575EF5B00CA1C34 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		497B089D1575EF5A00CA1C34 = {
+			isa = PBXGroup;
+			children = (
+				52ED7254212552F100D41AAE /* README.md */,
+				52D3DD541ACE4C9900F16B5D /* Default-568h@2x.png */,
+				497B08B21575EF5B00CA1C34 /* CalCircle */,
+				497B08AB1575EF5B00CA1C34 /* Frameworks */,
+				497B08A91575EF5B00CA1C34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		497B08A91575EF5B00CA1C34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				497B08A81575EF5B00CA1C34 /* CalCircle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		497B08AB1575EF5B00CA1C34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				497B08AC1575EF5B00CA1C34 /* UIKit.framework */,
+				497B08AE1575EF5B00CA1C34 /* Foundation.framework */,
+				497B08B01575EF5B00CA1C34 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		497B08B21575EF5B00CA1C34 /* CalCircle */ = {
+			isa = PBXGroup;
+			children = (
+				497B08C91575F0CA00CA1C34 /* DrawView.h */,
+				497B08CA1575F0CA00CA1C34 /* DrawView.m */,
+				497B08BB1575EF5B00CA1C34 /* AppDelegate.h */,
+				497B08BC1575EF5B00CA1C34 /* AppDelegate.m */,
+				497B08BE1575EF5B00CA1C34 /* ViewController.h */,
+				497B08BF1575EF5B00CA1C34 /* ViewController.m */,
+				497B08C11575EF5B00CA1C34 /* ViewController.xib */,
+				497B08B31575EF5B00CA1C34 /* Supporting Files */,
+			);
+			path = CalCircle;
+			sourceTree = "<group>";
+		};
+		497B08B31575EF5B00CA1C34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				497B08B41575EF5B00CA1C34 /* CalCircle-Info.plist */,
+				497B08B51575EF5B00CA1C34 /* InfoPlist.strings */,
+				497B08B81575EF5B00CA1C34 /* main.m */,
+				497B08BA1575EF5B00CA1C34 /* CalCircle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		497B08A71575EF5B00CA1C34 /* CalCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497B08C61575EF5B00CA1C34 /* Build configuration list for PBXNativeTarget "CalCircle" */;
+			buildPhases = (
+				497B08A41575EF5B00CA1C34 /* Sources */,
+				497B08A51575EF5B00CA1C34 /* Frameworks */,
+				497B08A61575EF5B00CA1C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalCircle;
+			productName = CalCircle;
+			productReference = 497B08A81575EF5B00CA1C34 /* CalCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		497B089F1575EF5A00CA1C34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					497B08A71575EF5B00CA1C34 = {
+						DevelopmentTeam = LW3F5LSN8X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 497B08A21575EF5A00CA1C34 /* Build configuration list for PBXProject "CalCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 497B089D1575EF5A00CA1C34;
+			productRefGroup = 497B08A91575EF5B00CA1C34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				497B08A71575EF5B00CA1C34 /* CalCircle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		497B08A61575EF5B00CA1C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B08B71575EF5B00CA1C34 /* InfoPlist.strings in Resources */,
+				497B08C31575EF5B00CA1C34 /* ViewController.xib in Resources */,
+				52ED7255212552F100D41AAE /* README.md in Resources */,
+				52D3DD551ACE4C9900F16B5D /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		497B08A41575EF5B00CA1C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B08B91575EF5B00CA1C34 /* main.m in Sources */,
+				497B08BD1575EF5B00CA1C34 /* AppDelegate.m in Sources */,
+				497B08C01575EF5B00CA1C34 /* ViewController.m in Sources */,
+				497B08CB1575F0CA00CA1C34 /* DrawView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		497B08B51575EF5B00CA1C34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497B08B61575EF5B00CA1C34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		497B08C11575EF5B00CA1C34 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497B08C21575EF5B00CA1C34 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		497B08C41575EF5B00CA1C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		497B08C51575EF5B00CA1C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		497B08C71575EF5B00CA1C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalCircle/CalCircle-Prefix.pch";
+				INFOPLIST_FILE = "CalCircle/CalCircle-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beta.CalCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		497B08C81575EF5B00CA1C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalCircle/CalCircle-Prefix.pch";
+				INFOPLIST_FILE = "CalCircle/CalCircle-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beta.CalCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		497B08A21575EF5A00CA1C34 /* Build configuration list for PBXProject "CalCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497B08C41575EF5B00CA1C34 /* Debug */,
+				497B08C51575EF5B00CA1C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497B08C61575EF5B00CA1C34 /* Build configuration list for PBXNativeTarget "CalCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497B08C71575EF5B00CA1C34 /* Debug */,
+				497B08C81575EF5B00CA1C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 497B089F1575EF5A00CA1C34 /* Project object */;
+}

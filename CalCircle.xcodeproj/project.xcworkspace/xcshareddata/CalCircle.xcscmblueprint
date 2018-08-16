@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ced0769b-79a1-0410-adbd-def2c5db449e++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "ced0769b-79a1-0410-adbd-def2c5db449e++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ced0769b-79a1-0410-adbd-def2c5db449e++505" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "395BE923-EBE3-4F1D-B1E3-7D6E8B252B49",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ced0769b-79a1-0410-adbd-def2c5db449e++505" : "jangpoong"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CalCircle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CalCircle\/CalCircle.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/dev.naver.com\/svn\/jangpoong",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ced0769b-79a1-0410-adbd-def2c5db449e++505"
+    }
+  ]
+}
